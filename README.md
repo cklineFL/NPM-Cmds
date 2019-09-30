@@ -10,7 +10,11 @@ this command will create a package.json file in the project's root directory
 ## Install
 Cmd: `npm install <<package name>>`
 
-this command will install a package in the project's 'node_modules' directory
+this command will install a package in the project.json 'dependencies' section
+
+Cmd: `npm install --save-dev <<package name>>`
+
+this command will install a package in the project.json 'devDependencies' section
 
 Cmd: `npm install`
 
